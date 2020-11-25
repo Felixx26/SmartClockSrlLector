@@ -5,16 +5,20 @@ VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartClockSrlLector", "SmartClockSrlLector\SmartClockSrlLector.csproj", "{8D97849D-8B35-410F-8DA5-CF09C4C69B5F}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupLector", "SetupLector\SetupLector.vdproj", "{62A4591D-4F3B-4BB6-8E6A-114CF0E2F326}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8D97849D-8B35-410F-8DA5-CF09C4C69B5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8D97849D-8B35-410F-8DA5-CF09C4C69B5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D97849D-8B35-410F-8DA5-CF09C4C69B5F}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{8D97849D-8B35-410F-8DA5-CF09C4C69B5F}.Debug|Any CPU.Build.0 = Release|Any CPU
 		{8D97849D-8B35-410F-8DA5-CF09C4C69B5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D97849D-8B35-410F-8DA5-CF09C4C69B5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62A4591D-4F3B-4BB6-8E6A-114CF0E2F326}.Debug|Any CPU.ActiveCfg = Debug
+		{62A4591D-4F3B-4BB6-8E6A-114CF0E2F326}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

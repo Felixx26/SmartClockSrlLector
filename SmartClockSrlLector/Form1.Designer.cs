@@ -39,6 +39,7 @@ namespace SmartClockSrlLector
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panelInformation = new System.Windows.Forms.Panel();
+            this.lblStatus = new System.Windows.Forms.Label();
             this.lblName = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.lblPosition = new System.Windows.Forms.Label();
@@ -49,7 +50,6 @@ namespace SmartClockSrlLector
             this.lblError = new System.Windows.Forms.Label();
             this.datehour = new System.Windows.Forms.Timer(this.components);
             this.timerProfile = new System.Windows.Forms.Timer(this.components);
-            this.lblStatus = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panelFinger.SuspendLayout();
@@ -164,6 +164,16 @@ namespace SmartClockSrlLector
             this.panelInformation.TabIndex = 4;
             this.panelInformation.Visible = false;
             // 
+            // lblStatus
+            // 
+            this.lblStatus.AutoSize = true;
+            this.lblStatus.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblStatus.Location = new System.Drawing.Point(140, 153);
+            this.lblStatus.Name = "lblStatus";
+            this.lblStatus.Size = new System.Drawing.Size(66, 16);
+            this.lblStatus.TabIndex = 8;
+            this.lblStatus.Text = "Check In";
+            // 
             // lblName
             // 
             this.lblName.AutoSize = true;
@@ -255,16 +265,6 @@ namespace SmartClockSrlLector
             this.timerProfile.Interval = 3000;
             this.timerProfile.Tick += new System.EventHandler(this.timerProfile_Tick);
             // 
-            // lblStatus
-            // 
-            this.lblStatus.AutoSize = true;
-            this.lblStatus.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblStatus.Location = new System.Drawing.Point(140, 153);
-            this.lblStatus.Name = "lblStatus";
-            this.lblStatus.Size = new System.Drawing.Size(66, 16);
-            this.lblStatus.TabIndex = 8;
-            this.lblStatus.Text = "Check In";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -273,7 +273,8 @@ namespace SmartClockSrlLector
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.ShowIcon = false;
+            this.Text = "SmartClockSRL";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
